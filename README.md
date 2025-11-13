@@ -39,12 +39,7 @@ cd Gaming-Arena
 
 2. Compile the main source file:
 ```bash
-gcc "PF Project Gaming Arena main folder/Pf project Gaming Arena folder/pf_lab_project.c" -o gaming_arena
-```
-
-Or use one of the pre-existing source files:
-```bash
-gcc "PF project Final.c" -o gaming_arena
+gcc pf_lab_project.c -o gaming_arena
 ```
 
 3. Run the executable:
@@ -112,26 +107,23 @@ The game provides hints (TOO HIGH/TOO LOW) after each guess.
 ## Folder Structure
 
 ```
-PF_Project/
+Gaming-Arena/
+│
+├── pf_lab_project.c                   # Main source file (complete game collection)
+├── Guess a Number.c                   # Standalone number guessing game
 │
 ├── PF Project Gaming Arena main folder/
-│   ├── Pf project Gaming Arena folder/
-│   │   ├── pf_lab_project.c          # Main source file (with student IDs)
-│   │   ├── Project Proposal.docx      # Project proposal document
-│   │   ├── pf project report.docx     # Project report
-│   │   └── build/
-│   │       └── Debug/                 # Debug build files
-│   └── PF Project Gaming Arena zip file.zip
+│   └── Pf project Gaming Arena folder/
+│       ├── Project Proposal.docx      # Project proposal document
+│       └── pf project report.docx     # Detailed project report
 │
-├── PF project Final.c                 # Alternative main source file
-├── Guess a Number.c                   # Standalone guess game
-├── PF_LAB_Project.c.c                # Project version
-├── *.exe                              # Compiled executables
-├── *.PNG                              # Screenshots and output images
-├── Project Report.docx                # Project documentation
-├── Project Report1.docx               # Additional documentation
+├── Guess a number difficulty level.PNG  # Difficulty selection screenshot
+├── Output.PNG                         # Game output examples
+├── Outputf.PNG                        # Additional output examples
+│
+├── Project Report.docx                # Main project documentation
 ├── README.md                          # This file
-└── .gitignore                         # Git ignore file
+└── .gitignore                         # Git ignore rules
 ```
 
 ## Game Screenshots
