@@ -2,9 +2,15 @@
 
 A console-based gaming platform featuring three classic games implemented in C. This project was developed as a Programming Fundamentals lab project.
 
+## Contributors / Group Members
+
+- Saad Shakeel — 23k-0614  
+- Abdul Moiz Hossain — 23k-0553  
+- Huziafa Abdul Rehman — 23k-0782
+
 ## Description
 
-Gaming Arena is an interactive command-line application that combines three popular games into one platform. Players can choose from Snake Water Gun (similar to Rock-Paper-Scissors), Hand Cricket, or a Number Guessing Game. Each game offers both single-player and multiplayer modes where applicable, providing an engaging gaming experience.
+Gaming Arena is an interactive command-line application that combines three popular games into one platform. Players can choose from Snake Water Gun (similar to Rock-Paper-Scissors), Hand Cricket, and Guess a Number.
 
 ## Features
 
@@ -143,9 +149,9 @@ The repository includes several screenshot files demonstrating gameplay:
 ## Credits
 
 **Developers:**
-- Student ID: 23k-0553
-- Student ID: 23k-0614
-- Student ID: 23k-0782
+- Saad Shakeel — 23k-0614
+- Abdul Moiz Hossain — 23k-0553
+- Huziafa Abdul Rehman — 23k-0782
 
 **Course:** Programming Fundamentals Lab Project
 
